@@ -33,7 +33,7 @@ int main() {
                 subtract();
                 break;
             case 3:
-                multiply(); rnyetr naa my nanem is parth 
+                multiply();  
                 break;
             case 4:
                 divide();
