@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function declarations
 void add();
 void subtract();
 void multiply();
@@ -20,11 +19,9 @@ int main() {
         printf("5. Invalid choice\n");
         printf("===========================\n");
 
-        // Take user choice
         printf("Enter your choice (1-5): ");
         scanf("%d", &choice);
 
-        // Perform operation based on choice
         switch(choice) {
             case 1:
                 add();
@@ -46,7 +43,7 @@ int main() {
         }
     } while(choice != 5);
 }
-// Function Definitions
+
 void add() {
     int a, b;
     printf("Enter two numbers: ");
